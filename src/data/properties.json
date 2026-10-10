@@ -1,0 +1,241 @@
+[
+  {
+    "id": "casa-arenal",
+    "name": "Casa Arenal",
+    "type": "house",
+    "location": "La Fortuna, Alajuela",
+    "price": 285000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "description": "A single-storey family home with volcano views, an open kitchen and a covered terrace. Simple, bright and easy to maintain.",
+    "style": { "wall": "#ece7de", "roof": "gable", "roofColor": "#9a4a32", "accent": "#7c5a3a" },
+    "entry": "Living room",
+    "trees": 9,
+    "floors": [
+      {
+        "name": "Ground floor",
+        "rooms": [
+          { "name": "Living room", "type": "living", "x": 0, "z": 0, "w": 6, "d": 5 },
+          { "name": "Kitchen", "type": "kitchen", "x": 6, "z": 0, "w": 3, "d": 5 },
+          { "name": "Dining", "type": "dining", "x": 9, "z": 0, "w": 3, "d": 5 },
+          { "name": "Bedroom", "type": "bedroom", "x": 0, "z": 5, "w": 4, "d": 4 },
+          { "name": "Bathroom", "type": "bath", "x": 4, "z": 5, "w": 2.5, "d": 4 },
+          { "name": "Master bedroom", "type": "bedroom", "x": 6.5, "z": 5, "w": 5.5, "d": 4 }
+        ],
+        "doors": [
+          ["Living room", "Kitchen"],
+          ["Kitchen", "Dining"],
+          ["Living room", "Bedroom"],
+          ["Living room", "Bathroom"],
+          ["Dining", "Master bedroom"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "villa-pacifica",
+    "name": "Villa Pacífica",
+    "type": "villa",
+    "location": "Tamarindo, Guanacaste",
+    "price": 1250000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "description": "Two-storey beach villa with a private pool, a home office and a guest suite. Ten minutes from Playa Tamarindo.",
+    "style": { "wall": "#f4f1ea", "roof": "hip", "roofColor": "#3b3f46", "accent": "#5b4636" },
+    "entry": "Living room",
+    "trees": 14,
+    "pool": { "x": 2, "z": 12, "w": 9, "d": 4 },
+    "floors": [
+      {
+        "name": "Ground floor",
+        "rooms": [
+          { "name": "Living room", "type": "living", "x": 0, "z": 0, "w": 7, "d": 6 },
+          { "name": "Kitchen", "type": "kitchen", "x": 7, "z": 0, "w": 4, "d": 6 },
+          { "name": "Stairs", "type": "stairs", "x": 11, "z": 0, "w": 3, "d": 4 },
+          { "name": "Bathroom", "type": "bath", "x": 11, "z": 4, "w": 3, "d": 2 },
+          { "name": "Dining", "type": "dining", "x": 0, "z": 6, "w": 5, "d": 4 },
+          { "name": "Office", "type": "office", "x": 5, "z": 6, "w": 4, "d": 4 },
+          { "name": "Guest bedroom", "type": "bedroom", "x": 9, "z": 6, "w": 5, "d": 4 }
+        ],
+        "doors": [
+          ["Living room", "Kitchen"],
+          ["Living room", "Dining"],
+          ["Dining", "Office"],
+          ["Kitchen", "Stairs"],
+          ["Kitchen", "Guest bedroom"],
+          ["Guest bedroom", "Bathroom"]
+        ]
+      },
+      {
+        "name": "First floor",
+        "rooms": [
+          { "name": "Master bedroom", "type": "bedroom", "x": 0, "z": 0, "w": 6, "d": 6 },
+          { "name": "Bedroom 2", "type": "bedroom", "x": 6, "z": 0, "w": 5, "d": 6 },
+          { "name": "Stairs", "type": "stairs", "x": 11, "z": 0, "w": 3, "d": 4 },
+          { "name": "Landing", "type": "hall", "x": 11, "z": 4, "w": 3, "d": 2 },
+          { "name": "Hallway", "type": "hall", "x": 0, "z": 6, "w": 14, "d": 1.5 },
+          { "name": "Bathroom 2", "type": "bath", "x": 0, "z": 7.5, "w": 4, "d": 2.5 },
+          { "name": "Closet", "type": "closet", "x": 4, "z": 7.5, "w": 2, "d": 2.5 },
+          { "name": "Bedroom 3", "type": "bedroom", "x": 6, "z": 7.5, "w": 8, "d": 2.5 }
+        ],
+        "doors": [
+          ["Stairs", "Landing"],
+          ["Landing", "Hallway"],
+          ["Master bedroom", "Hallway"],
+          ["Bedroom 2", "Hallway"],
+          ["Hallway", "Bedroom 3"],
+          ["Hallway", "Bathroom 2"],
+          ["Hallway", "Closet"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cabana-monteverde",
+    "name": "Cabaña Monteverde",
+    "type": "cabin",
+    "location": "Monteverde, Puntarenas",
+    "price": 165000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "A compact wooden cabin in the cloud forest. Open living space, a warm bedroom and a steep roof built for the rain.",
+    "style": { "wall": "#a7764b", "roof": "gable", "roofColor": "#2f3a2f", "accent": "#4a3220", "roofHeight": 3.2 },
+    "entry": "Living & kitchen",
+    "trees": 22,
+    "floors": [
+      {
+        "name": "Ground floor",
+        "rooms": [
+          { "name": "Living & kitchen", "type": "living", "x": 0, "z": 0, "w": 8, "d": 4 },
+          { "name": "Bedroom", "type": "bedroom", "x": 0, "z": 4, "w": 5, "d": 3 },
+          { "name": "Bathroom", "type": "bath", "x": 5, "z": 4, "w": 3, "d": 3 }
+        ],
+        "doors": [
+          ["Living & kitchen", "Bedroom"],
+          ["Living & kitchen", "Bathroom"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "residencias-escazu",
+    "name": "Residencias Escazú",
+    "type": "apartment",
+    "location": "Escazú, San José",
+    "price": 2400000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "description": "A small three-storey apartment building with six one-bedroom units, a shared stairwell and a rooftop slab ready for solar panels.",
+    "style": { "wall": "#d9dde2", "roof": "flat", "roofColor": "#6b7078", "accent": "#2b2f36" },
+    "entry": "Hall",
+    "trees": 6,
+    "repeatFloors": 3,
+    "floors": [
+      {
+        "name": "Typical floor",
+        "rooms": [
+          { "name": "Apt A · Living", "type": "living", "x": 0, "z": 0, "w": 6, "d": 5 },
+          { "name": "Apt A · Bedroom", "type": "bedroom", "x": 0, "z": 5, "w": 4, "d": 5 },
+          { "name": "Apt A · Bath", "type": "bath", "x": 4, "z": 5, "w": 2, "d": 5 },
+          { "name": "Hall", "type": "hall", "x": 6, "z": 0, "w": 4, "d": 6 },
+          { "name": "Stairs", "type": "stairs", "x": 6, "z": 6, "w": 4, "d": 4 },
+          { "name": "Apt B · Living", "type": "living", "x": 10, "z": 0, "w": 6, "d": 5 },
+          { "name": "Apt B · Bath", "type": "bath", "x": 10, "z": 5, "w": 2, "d": 5 },
+          { "name": "Apt B · Bedroom", "type": "bedroom", "x": 12, "z": 5, "w": 4, "d": 5 }
+        ],
+        "doors": [
+          ["Hall", "Apt A · Living"],
+          ["Hall", "Apt B · Living"],
+          ["Hall", "Stairs"],
+          ["Apt A · Living", "Apt A · Bedroom"],
+          ["Apt A · Living", "Apt A · Bath"],
+          ["Apt B · Living", "Apt B · Bedroom"],
+          ["Apt B · Living", "Apt B · Bath"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa-nosara",
+    "name": "Casa Nosara",
+    "type": "house",
+    "location": "Nosara, Guanacaste",
+    "price": 640000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "Modern flat-roof house near the surf, with a central hallway, a master suite and a lap pool in the garden.",
+    "style": { "wall": "#f7f7f5", "roof": "flat", "roofColor": "#8a8f96", "accent": "#3a3a3a" },
+    "entry": "Living room",
+    "trees": 12,
+    "pool": { "x": 3, "z": 11, "w": 10, "d": 3 },
+    "floors": [
+      {
+        "name": "Ground floor",
+        "rooms": [
+          { "name": "Living room", "type": "living", "x": 0, "z": 0, "w": 7, "d": 5 },
+          { "name": "Kitchen", "type": "kitchen", "x": 0, "z": 5, "w": 4, "d": 4 },
+          { "name": "Bathroom", "type": "bath", "x": 4, "z": 5, "w": 3, "d": 4 },
+          { "name": "Hallway", "type": "hall", "x": 7, "z": 0, "w": 2, "d": 9 },
+          { "name": "Master bedroom", "type": "bedroom", "x": 9, "z": 0, "w": 6, "d": 5 },
+          { "name": "Bedroom", "type": "bedroom", "x": 9, "z": 5, "w": 3, "d": 4 },
+          { "name": "Master bath", "type": "bath", "x": 12, "z": 5, "w": 3, "d": 4 }
+        ],
+        "doors": [
+          ["Living room", "Kitchen"],
+          ["Living room", "Hallway"],
+          ["Hallway", "Bathroom"],
+          ["Hallway", "Master bedroom"],
+          ["Hallway", "Bedroom"],
+          ["Master bedroom", "Master bath"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa-atenas",
+    "name": "Casa Atenas",
+    "type": "house",
+    "location": "Atenas, Alajuela",
+    "price": 345000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "Two-storey house in \"the best climate in the world\". Social areas downstairs, private bedrooms upstairs.",
+    "style": { "wall": "#efe3cf", "roof": "gable", "roofColor": "#8c3b2a", "accent": "#6b4a2b" },
+    "entry": "Living room",
+    "trees": 10,
+    "floors": [
+      {
+        "name": "Ground floor",
+        "rooms": [
+          { "name": "Living room", "type": "living", "x": 0, "z": 0, "w": 6, "d": 5 },
+          { "name": "Kitchen", "type": "kitchen", "x": 6, "z": 0, "w": 4, "d": 5 },
+          { "name": "Dining", "type": "dining", "x": 0, "z": 5, "w": 4, "d": 3 },
+          { "name": "Bathroom", "type": "bath", "x": 4, "z": 5, "w": 2, "d": 3 },
+          { "name": "Stairs", "type": "stairs", "x": 6, "z": 5, "w": 4, "d": 3 }
+        ],
+        "doors": [
+          ["Living room", "Kitchen"],
+          ["Living room", "Dining"],
+          ["Living room", "Bathroom"],
+          ["Kitchen", "Stairs"]
+        ]
+      },
+      {
+        "name": "First floor",
+        "rooms": [
+          { "name": "Bedroom 1", "type": "bedroom", "x": 0, "z": 0, "w": 4.5, "d": 5 },
+          { "name": "Bedroom 2", "type": "bedroom", "x": 4.5, "z": 0, "w": 5.5, "d": 5 },
+          { "name": "Bathroom 2", "type": "bath", "x": 0, "z": 5, "w": 2.5, "d": 3 },
+          { "name": "Hall", "type": "hall", "x": 2.5, "z": 5, "w": 3.5, "d": 3 },
+          { "name": "Stairs", "type": "stairs", "x": 6, "z": 5, "w": 4, "d": 3 }
+        ],
+        "doors": [
+          ["Hall", "Bedroom 1"],
+          ["Hall", "Bedroom 2"],
+          ["Hall", "Bathroom 2"],
+          ["Hall", "Stairs"]
+        ]
+      }
+    ]
+  }
+]
